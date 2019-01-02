@@ -1,0 +1,65 @@
+.App {
+  width: 100%;
+  height: 100%;
+  background-color: #282c34;
+}
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+h4 > a{
+  color: #61dafb;
+  text-decoration: none;
+}
+
+h4 > a:hover{
+  color: white;
+  text-decoration: underline;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header{
+ 
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+}
+
+ img {
+
+  width: 15%;
+  height: 15%;
+}
+.main {
+  margin: 10px;
+  color: white;
+}
+
